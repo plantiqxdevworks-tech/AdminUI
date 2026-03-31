@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - PlantIQX</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main style="padding-top: 80px;">
+
+        <!-- Hero Section 
+        <section class="products-hero">
+            <div class="container">
+                <div class="section-label">Product and Solutions</div>
+                <h1>Smart Solutions for Smarter Industries</h1>
+                <p>At PlantIQX, we offer a comprehensive suite of intelligent products, automation systems, and solutions designed to transform traditional factories into data-driven, connected, and self-optimizing ecosystems.</p>
+
+                <div class="product-tabs">
+                    <button class="product-tab active" data-section="products">Products</button>
+                    <button class="product-tab" data-section="automation">Automation</button>
+                    <button class="product-tab" data-section="solutions">Solutions</button>
+                </div>
+            </div>
+        </section>-->
+
+        <!-- Products Section -->
+        <section id="products-section" class="main-section active">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label">Automation</div>
+                    <h2>Comprehensive Industrial Management Solutions</h2>
+                    <p>Our product suite provides complete visibility and control over your industrial operations</p>
+                </div>
+
+                <div class="submodules-grid">
+                    <!-- Asset Management -->
+                    <div class="submodule-card" id="asset-management">
+                        <div class="submodule-icon">
+                            <img src="assets/svg/Assets.svg" alt="Asset Management">
+                        </div>
+                        <h3>Asset Management</h3>
+                        <p>Track, monitor, and optimize every asset in your facility with real-time insights and predictive maintenance capabilities.</p>
+                        <ul class="submodule-features">
+                            <li>Real-time asset tracking & performance monitoring</li>
+                            <li>Predictive maintenance scheduling</li>
+                            <li>Asset lifecycle management</li>
+                            <li>Downtime alerts & analytics</li>
+                        </ul>
+                    </div>
+
+                    <!-- Security -->
+                    <div class="submodule-card" id="security">
+                        <div class="submodule-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Security</h3>
+                        <p>Enterprise-grade security with role-based access control, multi-level authentication, and comprehensive audit trails.</p>
+                        <ul class="submodule-features">
+                            <li>Role-based access control (RBAC)</li>
+                            <li>Multi-factor authentication</li>
+                            <li>Encryption & data protection</li>
+                            <li>Compliance management</li>
+                        </ul>
+                    </div>
+
+                    <!-- Surveillance -->
+                    <div class="submodule-card" id="surveillance">
+                        <div class="submodule-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Surveillance</h3>
+                        <p>Integrated video surveillance with AI-powered analytics for enhanced security and operational monitoring.</p>
+                        <ul class="submodule-features">
+                            <li>Real-time video monitoring</li>
+                            <li>AI-powered threat detection</li>
+                            <li>Incident recording & playback</li>
+                            <li>Integration with access control</li>
+                        </ul>
+                    </div>
+
+                    <!-- Utilities Monitoring -->
+                    <div class="submodule-card" id="utilities-monitoring">
+                        <div class="submodule-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Utilities Monitoring</h3>
+                        <p>Monitor and optimize consumption of electricity, water, gas, and other utilities to reduce costs and environmental impact.</p>
+                        <ul class="submodule-features">
+                            <li>Real-time utility consumption tracking</li>
+                            <li>Cost analysis & optimization</li>
+                            <li>Anomaly detection & alerts</li>
+                            <li>Sustainability reporting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Automation Section -->
+        <section id="automation-section" class="main-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label">Automation</div>
+                    <h2>Industrial Automation & Control Systems</h2>
+                    <p>Advanced automation technologies for seamless industrial control and monitoring</p>
+                </div>
+
+                <!-- PLC -->
+                <div class="automation-block" id="plc">
+                    <div class="automation-img">
+                        <img src="assets/svg/Automatic.svg" alt="PLC">
+                    </div>
+                    <div class="automation-content">
+                        <div class="automation-tag"><i class="fas fa-microchip"></i> Automation</div>
+                        <h3>PLC <span>— Programmable Logic Control</span></h3>
+                        <p>Robust programmable logic controllers that form the backbone of reliable industrial automation. PLCs execute deterministic, real-time control logic for every production process — from simple conveyors to complex multi-axis systems.</p>
+                        <ul class="automation-features">
+                            <li><i class="fas fa-check-circle"></i> Real-time process control with microsecond cycle times</li>
+                            <li><i class="fas fa-check-circle"></i> Flexible programming — Ladder, FBD, ST, IL, SFC</li>
+                            <li><i class="fas fa-check-circle"></i> High reliability & industrial-grade durability</li>
+                            <li><i class="fas fa-check-circle"></i> Seamless integration with SCADA, HMI & MES</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- SCADA -->
+                <div class="automation-block reverse" id="scada">
+                    <div class="automation-img">
+                        <img src="assets/svg/wellcomeDashboard.png" alt="SCADA">
+                    </div>
+                    <div class="automation-content">
+                        <div class="automation-tag"><i class="fas fa-desktop"></i> Automation</div>
+                        <h3>SCADA <span>— Supervisory Control & Data Acquisition</span></h3>
+                        <p>A centralised system that monitors, controls, and gathers data from industrial processes across your entire facility — or across multiple sites — giving supervisors complete operational visibility.</p>
+                        <ul class="automation-features">
+                            <li><i class="fas fa-check-circle"></i> Centralised monitoring & control of all processes</li>
+                            <li><i class="fas fa-check-circle"></i> Real-time data acquisition from PLCs & field devices</li>
+                            <li><i class="fas fa-check-circle"></i> Historical data logging & trend analysis</li>
+                            <li><i class="fas fa-check-circle"></i> Alarm management, reporting & event logging</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- VFD -->
+                <div class="automation-block" id="vfd">
+                    <div class="automation-img">
+                        <img src="assets/svg/Advance.svg" alt="VFD">
+                    </div>
+                    <div class="automation-content">
+                        <div class="automation-tag"><i class="fas fa-tachometer-alt"></i> Automation</div>
+                        <h3>VFD <span>— Variable Frequency Drive</span></h3>
+                        <p>Precision motor speed and torque control that dramatically reduces energy consumption and mechanical wear. VFDs are critical for pumps, fans, compressors, and conveyors where variable speed delivers significant efficiency gains.</p>
+                        <ul class="automation-features">
+                            <li><i class="fas fa-check-circle"></i> Energy-efficient variable speed motor control</li>
+                            <li><i class="fas fa-check-circle"></i> Soft start/stop — eliminates current spikes</li>
+                            <li><i class="fas fa-check-circle"></i> Speed & torque optimisation in real time</li>
+                            <li><i class="fas fa-check-circle"></i> Reduced mechanical stress & extended motor life</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- HMI -->
+                <div class="automation-block reverse" id="hmi">
+                    <div class="automation-img">
+                        <img src="assets/svg/UserExperiance.svg" alt="HMI">
+                    </div>
+                    <div class="automation-content">
+                        <div class="automation-tag"><i class="fas fa-hand-pointer"></i> Automation</div>
+                        <h3>HMI <span>— Human Machine Interface</span></h3>
+                        <p>Intuitive touchscreen interfaces that bridge your operators and industrial control systems. HMIs deliver real-time process visualisation, alarm management, and system control — designed for clarity and speed of operation.</p>
+                        <ul class="automation-features">
+                            <li><i class="fas fa-check-circle"></i> User-friendly touchscreen interface design</li>
+                            <li><i class="fas fa-check-circle"></i> Real-time process visualisation & control</li>
+                            <li><i class="fas fa-check-circle"></i> Customisable dashboards per operator role</li>
+                            <li><i class="fas fa-check-circle"></i> Remote access via web browser & mobile app</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Solutions Section -->
+        <section id="solutions-section" class="main-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label">Solutions</div>
+                    <h2>Intelligent Industrial Solutions</h2>
+                    <p>AI-powered solutions for predictive insights and operational excellence</p>
+                </div>
+
+                <div class="submodules-grid">
+                    <!-- Predictive Maintenance -->
+                    <div class="submodule-card" id="predictive-maintenance">
+                        <div class="submodule-icon">
+                            <img src="assets/svg/PreventiveMaintenances.svg" alt="Predictive Maintenance">
+                        </div>
+                        <h3>Predictive Maintenance</h3>
+                        <p>AI-driven predictive analytics to anticipate equipment failures before they happen and minimize unplanned downtime.</p>
+                        <ul class="submodule-features">
+                            <li>Machine learning-based predictions</li>
+                            <li>Failure pattern recognition</li>
+                            <li>Automated maintenance scheduling</li>
+                            <li>ROI optimization</li>
+                        </ul>
+                    </div>
+
+                    <!-- Condition Monitoring -->
+                    <div class="submodule-card" id="condition-monitoring">
+                        <div class="submodule-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Condition Monitoring</h3>
+                        <p>Continuous monitoring of equipment health through vibration analysis, temperature sensing, and performance metrics.</p>
+                        <ul class="submodule-features">
+                            <li>Real-time health monitoring</li>
+                            <li>Vibration & temperature analysis</li>
+                            <li>Early fault detection</li>
+                            <li>Performance trending</li>
+                        </ul>
+                    </div>
+
+                    <!-- Vision AI -->
+                    <div class="submodule-card" id="vision-ai">
+                        <div class="submodule-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Vision AI</h3>
+                        <p>Computer vision and AI-powered visual inspection for quality control, defect detection, and process optimization.</p>
+                        <ul class="submodule-features">
+                            <li>Automated visual inspection</li>
+                            <li>Defect detection & classification</li>
+                            <li>Quality assurance automation</li>
+                            <li>Real-time anomaly detection</li>
+                        </ul>
+                    </div>
+
+                    <!-- Energy Management System -->
+                    <div class="submodule-card" id="energy-management">
+                        <div class="submodule-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Energy Management System</h3>
+                        <p>Comprehensive energy monitoring and optimization to reduce costs and achieve sustainability goals.</p>
+                        <ul class="submodule-features">
+                            <li>Real-time energy consumption tracking</li>
+                            <li>Cost optimization strategies</li>
+                            <li>Carbon footprint reduction</li>
+                            <li>Sustainability reporting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="product-cta-section">
+            <div class="container">
+                <div class="product-cta-box">
+                    <div class="product-cta-content">
+                        <h2>Get started today and take the first step toward a smarter, more connected industrial
+                            future.</h2>
+                        <p>Experience the power of PlantIQX firsthand. See how real-time monitoring, predictive
+                            analytics, and intelligent automation can transform your operations.</p>
+                    </div>
+                    <div class="product-cta-button-wrapper">
+                        <button class="product-cta-button">Request For Demo <img src="assets/svg/UpArrow.svg"
+                                alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/products-tabs.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+
+</html>

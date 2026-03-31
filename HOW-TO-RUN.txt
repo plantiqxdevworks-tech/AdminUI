@@ -1,0 +1,66 @@
+========================================
+HOW TO RUN YOUR PLANTIQX WEBSITE
+========================================
+
+METHOD 1: Direct Browser Open (Simplest)
+-----------------------------------------
+1. Navigate to your project folder
+2. Right-click on "index.html"
+3. Select "Open with" → Choose your browser (Chrome, Firefox, Edge, etc.)
+4. Done! The website will open
+
+METHOD 2: Live Server (Recommended for Development)
+----------------------------------------------------
+If you're using VS Code:
+1. Install "Live Server" extension from VS Code marketplace
+2. Right-click on "index.html"
+3. Click "Open with Live Server"
+4. Website will open at http://127.0.0.1:5500 with auto-reload on changes
+
+METHOD 3: Python Simple Server
+-------------------------------
+If you have Python installed:
+1. Open terminal/command prompt in project folder
+2. Run: python -m http.server 8000
+3. Open browser and go to: http://localhost:8000
+
+========================================
+FEATURES INCLUDED
+========================================
+✓ Responsive design (works on all devices)
+✓ Zoom-safe layout (80%, 100%, 125%, 150%)
+✓ Hero slider with auto-play
+✓ FAQ accordion
+✓ Smooth scrolling navigation
+✓ Bootstrap 5 framework
+✓ Font Awesome icons
+✓ Reusable header & footer components
+
+========================================
+NEXT STEPS
+========================================
+1. Replace placeholder images with your actual images in assets/images/
+2. Update text content to match your brand
+3. Customize colors in css/style.css (CSS variables at top)
+4. Add your SVG icons to assets/svg/
+5. Test on different browsers and devices
+
+========================================
+FOLDER STRUCTURE
+========================================
+project-root/
+├── index.html              (Main page)
+├── components/             (Header & Footer)
+├── css/                    (Styles)
+├── js/                     (JavaScript)
+├── assets/                 (Images, Icons, SVG)
+└── README.md              (Documentation)
+
+========================================
+TROUBLESHOOTING
+========================================
+- If header/footer don't load: Make sure you're running from a server (Method 2 or 3)
+- If images don't show: Check internet connection (using Unsplash placeholders)
+- If styles look broken: Clear browser cache (Ctrl+Shift+R or Cmd+Shift+R)
+
+Need help? Check README.md for more details!

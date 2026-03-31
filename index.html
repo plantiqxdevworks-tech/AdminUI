@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantIQX - Where Minds and Machines Merge</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with PlantIQX Logo -->
+        <section id="hero" class="hero-section-home">
+            <div class="hero-overlay"></div>
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&h=1080&fit=crop"
+                alt="PlantIQX Industrial Solutions" class="hero-bg">
+            <div class="container">
+                <div class="row align-items-center justify-content-center" style="min-height: 100vh;">
+                    <div class="col-lg-8 text-center">
+                        <div class="hero-logo-container">
+                            <img src="assets/svg/PlantiqX-final-logo.svg" alt="PlantIQX Logo" class="hero-logo">
+                            <h1 class="hero-tagline">Where Minds and Machines Merge</h1>
+                            <p class="hero-subtitle">Intelligent Industrial Operations Platform</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Modules Banner with Glimpses -->
+        <!-- <section id="modules-banner" class="modules-banner-section">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Core Modules Overview</h2>
+                <div class="modules-banner-grid">
+                    <div class="module-banner-card">
+                        <div class="module-glimpse-image" onclick="openImagePopup('assets/images/AssetManegement.png', 'Asset Management Dashboard')">
+                            <img src="assets/images/AssetManegement.png" alt="Asset Management Dashboard">
+                        </div>
+                        <div class="module-info">
+                            <div class="module-icon-small">
+                                <img src="assets/svg/Assets.svg" alt="Asset Management">
+                            </div>
+                            <h4>Asset Management</h4>
+                             <p>Track and manage your assets with complete visibility and control</p> 
+                        </div>
+                    </div>
+
+                    <div class="module-banner-card">
+                        <div class="module-glimpse-image" onclick="openImagePopup('assets/images/Compliant.png', 'Complaints Dashboard')">
+                            <img src="assets/images/Compliant.png" alt="Complaints Dashboard">
+                        </div>
+                        <div class="module-info">
+                            <div class="module-icon-small">
+                                <img src="assets/svg/Complaint.svg" alt="Complaints">
+                            </div>
+                            <h4>Complaints</h4>
+                             <p>Streamline complaint handling and resolution processes</p> 
+                        </div>
+                    </div>
+
+                    <div class="module-banner-card">
+                        <div class="module-glimpse-image" onclick="openImagePopup('assets/images/BreakDown.png', 'Breakdowns Dashboard')">
+                            <img src="assets/images/BreakDown.png" alt="Breakdowns Dashboard">
+                        </div>
+                        <div class="module-info">
+                            <div class="module-icon-small">
+                                <img src="assets/svg/BreakDown.svg" alt="Breakdowns">
+                            </div>
+                            <h4>Breakdowns</h4>
+                             <p>Respond faster to equipment failures and minimize downtime</p>
+                        </div>
+                    </div>
+
+                    <div class="module-banner-card">
+                        <div class="module-glimpse-image" onclick="openImagePopup('assets/images/PreventiveMaintance.png', 'Preventive Maintenance Dashboard')">
+                            <img src="assets/images/PreventiveMaintance.png" alt="Preventive Maintenance Dashboard">
+                        </div>
+                        <div class="module-info">
+                            <div class="module-icon-small">
+                                <img src="assets/svg/PreventiveMaintenances.svg" alt="Preventive Maintenance">
+                            </div>
+                            <h4>Preventive Maintenance</h4>
+                             <p>Schedule and track maintenance to prevent equipment failures</p> 
+                        </div>
+                    </div>
+
+                     Work Order Card - Commented out for now -->
+                    <!-- 
+                    <div class="module-banner-card">
+                        <div class="module-glimpse-placeholder">
+                            <div class="placeholder-content">
+                                <img src="assets/svg/WorkOrder.svg" alt="Work Order" class="placeholder-icon">
+                                <p>Work Order Dashboard Coming Soon</p>
+                            </div>
+                        </div>
+                        <div class="module-info">
+                            <div class="module-icon-small">
+                                <img src="assets/svg/WorkOrder.svg" alt="Work Order">
+                            </div>
+                            <h4>Work Order</h4>
+                            <p>Manage work orders efficiently from creation to completion</p>
+                        </div>
+                    </div>
+                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> --> 
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <span class="section-label">About US</span>
+                <div class="d-flex justify-content-between align-items-start mb-4">
+                    <h2 class="section-title mb-0" style="max-width: 60%;">PlantIQX – Where Minds and Machines Merge.
+                    </h2>
+                    <button class="btn btn-primary-outline">
+                        Learn More
+                        <img src="assets/svg/UpArrow.svg" alt="Arrow" class="btn-arrow ms-2">
+                    </button>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mx-auto"></div>
+                    <p class="section-description">At PlantIQX, we believe that the future of manufacturing lies in
+                        intelligence — not just of automation, but of people. We're not just building software; we're
+                        building a smarter, more connected future for industries worldwide. Our mission is simple yet
+                        powerful — to help industries monitor, analyze, and centralize their production with data-driven
+                        precision.</p>
+                    <p class="section-description">Right from the foundation of Industrial Intelligence, PlantIQX
+                        software integrates seamlessly with existing equipment and Technical Insight. We empower
+                        businesses to make smarter, faster, and more informed decisions. Our platform provides a 360°
+                        view into your operations, giving you the clarity you need to optimize every aspect of your
+                        production.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="features-grid mt-5">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="assets/svg/ArtificialInteligence.svg" alt="AI Powered Insights">
+                        </div>
+                        <h5>AI Powered Insights</h5>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="assets/svg/IOT.svg" alt="IoT & Machine to Machine">
+                        </div>
+                        <h5>IoT & Machine to Machine</h5>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="assets/svg/Edge.svg" alt="Edge Computing & Video Analytics">
+                        </div>
+                        <h5>Edge Computing & Video Analytics</h5>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="assets/svg/Advance.svg" alt="Advance Analytics">
+                        </div>
+                        <h5>Advance Analytics</h5>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="assets/svg/CloudTechnology.svg" alt="Cloud Technology">
+                        </div>
+                        <h5>Cloud Technology</h5>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products-section">
+            <div class="container">
+                <span class="section-label-light">Our Products</span>
+                <h2 class="section-title text-white">Empowering Industries Through Smart Technology</h2>
+                <p class="section-description text-white-50">PlantIQX brings together a suite of powerful, scalable, and
+                    intelligent modules that redefine industrial performance.</p>
+
+                <div class="products-slider-wrapper">
+                    <div class="products-slider-container">
+                        <div class="products-slider active">
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop"
+                                    alt="Asset Management" class="product-image">
+                                <div class="product-content">
+                                    <h4>Asset Management</h4>
+                                    <p>Track components in batches and streamline your asset events. Gain complete
+                                        visibility over downtime, and technical asset re...</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop"
+                                    alt="User Management" class="product-image">
+                                <div class="product-content">
+                                    <h4>User Management</h4>
+                                    <p>Manage work permissions, and access for users with simplicity and efficiency.
+                                        Ensure
+                                        efficient user collaboration.</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop"
+                                    alt="IoT Integration" class="product-image">
+                                <div class="product-content">
+                                    <h4>IoT Integration</h4>
+                                    <p>Connect every piece of equipment to a single platform. Seamlessly integrate
+                                        real-time
+                                        monitoring, analytics, and automation.</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop"
+                                    alt="Security & Administration" class="product-image">
+                                <div class="product-content">
+                                    <h4>Security & Administration</h4>
+                                    <p>Enterprise-grade permissions with multi-level authentication. Ensure your data is
+                                        secure with role-based access control.</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="products-slider">
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=600&fit=crop"
+                                    alt="Predictive Maintenance" class="product-image">
+                                <div class="product-content">
+                                    <h4>Predictive Maintenance</h4>
+                                    <p>Anticipate equipment failures before they happen. Reduce unplanned downtime with
+                                        AI-powered predictive analytics.</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+                                    alt="Analytics Dashboard" class="product-image">
+                                <div class="product-content">
+                                    <h4>Analytics Dashboard</h4>
+                                    <p>Visualize your operations with real-time dashboards. Make data-driven decisions
+                                        with comprehensive analytics tools.</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+                                    alt="Quality Control" class="product-image">
+                                <div class="product-content">
+                                    <h4>Quality Control</h4>
+                                    <p>Maintain consistent quality standards across all production lines. Automated
+                                        inspection and reporting systems.</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=600&fit=crop"
+                                    alt="Inventory Management" class="product-image">
+                                <div class="product-content">
+                                    <h4>Inventory Management</h4>
+                                    <p>Track inventory levels in real-time. Optimize stock levels and reduce waste with
+                                        intelligent inventory systems.</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="products-slider">
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop"
+                                    alt="Energy Management" class="product-image">
+                                <div class="product-content">
+                                    <h4>Energy Management</h4>
+                                    <p>Monitor and optimize energy consumption across your facility. Reduce costs and
+                                        environmental impact.</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop"
+                                    alt="Compliance Tracking" class="product-image">
+                                <div class="product-content">
+                                    <h4>Compliance Tracking</h4>
+                                    <p>Stay compliant with industry regulations. Automated documentation and audit trail
+                                        management.</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop"
+                                    alt="Workforce Optimization" class="product-image">
+                                <div class="product-content">
+                                    <h4>Workforce Optimization</h4>
+                                    <p>Maximize productivity with intelligent workforce planning. Schedule shifts and
+                                        track performance efficiently.</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop"
+                                    alt="Mobile Access" class="product-image">
+                                <div class="product-content">
+                                    <h4>Mobile Access</h4>
+                                    <p>Access your operations from anywhere. Full-featured mobile apps for iOS and
+                                        Android platforms.</p>
+                                    <a href="#" class="product-link">Learn More <i
+                                            class="fas fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-controls">
+                        <div class="products-indicators">
+                            <span class="product-indicator active"></span>
+                            <span class="product-indicator"></span>
+                            <span class="product-indicator"></span>
+                        </div>
+                        <div class="products-nav">
+                            <button class="products-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                            <button class="products-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Image Lightbox Popup -->
+    <div id="imageLightbox" class="lightbox-overlay" onclick="closeImagePopup()">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+            <img id="lightboxImage" src="" alt="">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+
+</html>

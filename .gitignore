@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Node (if any future build tools)
+node_modules/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Empty placeholder
+plantiqx.com/

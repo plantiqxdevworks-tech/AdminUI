@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - PlantIQX</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main style="padding-top: 80px;">
+
+        <!-- Hero Section -->
+        <section class="contact-hero">
+            <div class="container">
+                <div class="section-label">Contact Us</div>
+                <h1>We're Here to Help You Build Smarter Operations</h1>
+                <p>Have a question, feedback, or want to request a demo? The PlantIQX team is ready to assist you. Reach
+                    out to us and let's explore how our industrial intelligence solutions can transform your operations.
+                </p>
+            </div>
+        </section>
+
+        <!-- Request Demo & Form Section -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="contact-content">
+                    <!-- Left Side - Request Demo -->
+                    <div class="request-demo">
+                        <div class="section-label">Request A Demo</div>
+                        <h2>See PlantIQX in Action</h2>
+                        <p>Experience the full power of PlantIQX with a personalized demonstration. Explore real-time
+                            monitoring, predictive analytics, and intelligent IoT integration. Analytics — can transform
+                            your industrial operations.</p>
+
+                        <div class="demo-features">
+                            <div class="demo-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Witness real-time monitoring and intelligent insights in action</span>
+                            </div>
+                            <div class="demo-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Understand how to optimize assets, workflows, and maintenance</span>
+                            </div>
+                            <div class="demo-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>See how predictive analytics can reduce downtime and improve efficiency</span>
+                            </div>
+                            <div class="demo-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Get guidance tailored to your plant's specific needs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side - Contact Form -->
+                    <div class="contact-form">
+                        <div class="section-label">Fill Out the Form</div>
+                        <form id="demoRequestForm">
+                            <div class="form-group">
+                                <label>Full Name *</label>
+                                <input type="text" name="fullName" placeholder="Enter Your Full Name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Company Name *</label>
+                                <input type="text" name="companyName" placeholder="Enter Your Company Name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Business Email Address *</label>
+                                <input type="email" name="businessEmail" placeholder="Enter Your Business Email Address" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Mobile Number *</label>
+                                <input type="tel" name="mobileNumber" placeholder="+91 | Enter Your Mobile Number" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Message (Optional)</label>
+                                <textarea name="message" rows="4" placeholder="Enter Your Message"></textarea>
+                            </div>
+
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </form>
+
+                        <!-- Thank You Message (Hidden by default) -->
+                        <div id="thankYouMessage" class="thank-you-message" style="display: none;">
+                            <div class="thank-you-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h3>Thank You — Request Received!</h3>
+                            <p class="thank-you-text">Your details have been submitted successfully. Our PlantIQX expert team will contact you shortly.</p>
+                            
+                            <div class="what-happens-next">
+                                <h4>What happens next:</h4>
+                                <ul>
+                                    <li>We review your requirement</li>
+                                    <li>Our expert will reach out within one business day</li>
+                                    <li>A demo / consultation will be scheduled at your convenience</li>
+                                </ul>
+                            </div>
+
+                            <button class="btn-back-to-form" onclick="resetForm()">Submit Another Request</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Contact & Get in Touch Section -->
+        <section class="contact-info-section">
+            <div class="container">
+                <div class="contact-info-content">
+                    <!-- Left Side - Why Contact -->
+                    <div class="why-contact">
+                        <h2>Why Contact PlantIQX?</h2>
+                        <div class="contact-reasons">
+                            <div class="contact-reason">
+                                <img src="assets/svg/verify.svg" alt="">
+                                <span>Get personalized guidance for your industrial automation needs</span>
+                            </div>
+                            <div class="contact-reason">
+                                <img src="assets/svg/verify.svg" alt="">
+                                <span>Request a demo of our smart factory modules</span>
+                            </div>
+                            <div class="contact-reason">
+                                <img src="assets/svg/verify.svg" alt="">
+                                <span>Speak directly with our experts about integration, analytics, and IoT
+                                    solutions</span>
+                            </div>
+                            <div class="contact-reason">
+                                <img src="assets/svg/verify.svg" alt="">
+                                <span>Receive timely support for any technical or operational questions</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side - Get in Touch -->
+                    <div class="get-in-touch">
+                        <div class="section-label">Contact Us</div>
+                        <h2>Get in Touch</h2>
+                        <p>Whether you're interested in a product demo, need technical support, or have a general
+                            inquiry, we want to hear from you.</p>
+
+                        <div class="contact-locations">
+                            <!-- India Office -->
+                            <div class="location-card">
+                                <div class="location-flag">
+                                    <span>PlantIQX (INDIA)</span>
+                                </div>
+                                <div class="location-details">
+                                    <div class="location-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+91 6302288170</span>
+                                    </div>
+                                    <div class="location-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>info@plantiqx.com</span>
+                                    </div>
+                                    <div class="location-item">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Office no. 812,Fairmount Downtown,Kompally, Hyderabad, Telangana 500100</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- USA Office -->
+                            <!--<div class="location-card">
+                                <div class="location-flag">
+                                    <img src="https://flagcdn.com/w40/us.png" alt="USA Flag">
+                                    <span>PlantIQX (USA)</span>
+                                </div>
+                                <div class="location-details">
+                                    <div class="location-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+1 0000 000 0000</span>
+                                    </div>
+                                    <div class="location-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>usa@plantiqx.com</span>
+                                    </div>
+                                    <div class="location-item">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>456 Innovation St., Suite 789, Greenville, SC 29601, USA</span>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What to Expect Section -->
+        <section class="expect-section">
+            <div class="container">
+                <div class="expect-box">
+                    <div class="expect-content">
+                        <h2>What to Expect</h2>
+                        <p>Once you submit your request, a PlantIQX expert will contact you to:</p>
+                        <ol>
+                            <li>Schedule a demo at a convenient time</li>
+                            <li>Walk you through the platform features relevant to your operations</li>
+                            <li>Answer any questions and discuss integration possibilities</li>
+                        </ol>
+                    </div>
+                    <div class="expect-button-wrapper">
+                        <button class="expect-button">Book your demo today <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+
+</html>

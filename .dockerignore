@@ -1,0 +1,31 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Docs
+README.md
+HOW-TO-RUN.txt
+LICENSE
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Empty folders
+plantiqx.com
+cgi-bin
+
+# Nginx config folder (copied explicitly)
+# nginx/ is needed, so don't ignore it
